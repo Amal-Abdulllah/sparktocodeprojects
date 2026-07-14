@@ -642,7 +642,7 @@ namespace OPPtask1
         // Case 17 - Total Students Counter [Static Field & Method]
         static void Case17_TotalStudentsCounter()
         {
-            Console.WriteLine("-- Case 17: Total Students Counter (Static) --");
+            Console.WriteLine("-- Case 17: Total Students Counter (Static) --")  ;
             // Called through the CLASS NAME, not through student1/student2.
             Console.WriteLine($"Total Student objects created so far: {Student.GetStudentCount()}");
         }
